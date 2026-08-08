@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "amrit",
+  "classifications": [ "Solution", "Clean Architecture", "DDD" ],
+  "identity": "Amrit.CleanArchitecture.Ddd.SixLayer",
+  "name": "Clean Architecture + DDD (6-layer) Solution",
+  "shortName": "ddd-clean",
+  "tags": {
+    "language": "C#",
+    "type": "solution"
+  },
+  "sourceName": "Blank",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".git/**",
+            ".vs/**",
+            ".claude/**",
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.user"
+          ]
+        }
+      ]
+    }
+  ]
+}

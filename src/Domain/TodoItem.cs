@@ -1,5 +1,6 @@
 ﻿
 
+using Blank.Domain.Errors;
 using Domain.Common;
 
 namespace Blank.Domain;
@@ -15,7 +16,11 @@ internal class TodoItem : Entity
 
     public static Result<TodoItem> Create(string title)
     {
-        if (string.IsNullOrWhiteSpace(title)) return Result.Failure<TodoItem>("Title is required");
-        new TodoItem(title);
+        if (string.IsNullOrWhiteSpace(title))
+        {
+            return Result.Failure<TodoItem>(TodoItemError.TitleRequiredError);
+        }
+        TodoItem item = new(Guid.NewGuid(), title);
+        return Result.Success(item);
     }
 }

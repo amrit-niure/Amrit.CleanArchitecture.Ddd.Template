@@ -1,5 +1,10 @@
 ## .NET / Visual Studio .gitignore
 
+# Local SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
 # User-specific files
 *.rsuser
 *.suo

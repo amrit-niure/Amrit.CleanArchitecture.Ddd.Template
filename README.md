@@ -30,7 +30,7 @@ dotnet new install ./Amrit.CleanArchitecture.Ddd.Template
 dotnet new ddd-clean -n YourProjectName -o path/to/new/folder
 ```
 
-Every occurrence of `Blank` in file names, folder names, and file contents (project
+Every occurrence of `Minimum` in file names, folder names, and file contents (project
 references, the `.slnx`, namespaces) is replaced with `YourProjectName`.
 
 Then:

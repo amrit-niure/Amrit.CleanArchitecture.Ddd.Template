@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Application/Minimum.Application.csproj" />
+    <Project Path="src/Domain/Minimum.Domain.csproj" />
+    <Project Path="src/Infrastructure/Minimum.Infrastructure.csproj" />
+    <Project Path="src/Persistence/Minimum.Persistence.csproj" />
+    <Project Path="src/Presentation/Minimum.Presentation.csproj" />
+    <Project Path="src/Shared/Minimum.Shared.csproj" />
+    <Project Path="src/WebAPI/Minimum.WebAPI.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Application.Tests/Minimum.Application.Tests.csproj" />
+    <Project Path="tests/Domain.Tests/Minimum.Domain.Tests.csproj" />
+    <Project Path="tests/Infrastructure.Tests/Minimum.Infrastructure.Tests.csproj" />
+    <Project Path="tests/Persistence.Tests/Minimum.Persistence.Tests.csproj" />
+    <Project Path="tests/Presentation.Tests/Minimum.Presentation.Tests.csproj" />
+    <Project Path="tests/Shared.Tests/Minimum.Shared.Tests.csproj" />
+    <Project Path="tests/WebAPI.Tests/Minimum.WebAPI.Tests.csproj" />
+  </Folder>
+</Solution>

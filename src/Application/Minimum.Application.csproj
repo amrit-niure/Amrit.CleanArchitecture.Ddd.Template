@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Blank.Domain.csproj" />
-    <ProjectReference Include="..\Shared\Blank.Shared.csproj" />
+    <ProjectReference Include="..\Domain\Minimum.Domain.csproj" />
+    <ProjectReference Include="..\Shared\Minimum.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

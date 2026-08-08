@@ -12,10 +12,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Application\Blank.Application.csproj" />
-    <ProjectReference Include="..\Infrastructure\Blank.Infrastructure.csproj" />
-    <ProjectReference Include="..\Persistence\Blank.Persistence.csproj" />
-    <ProjectReference Include="..\Shared\Blank.Shared.csproj" />
+    <ProjectReference Include="..\Application\Minimum.Application.csproj" />
+    <ProjectReference Include="..\Infrastructure\Minimum.Infrastructure.csproj" />
+    <ProjectReference Include="..\Persistence\Minimum.Persistence.csproj" />
+    <ProjectReference Include="..\Shared\Minimum.Shared.csproj" />
   </ItemGroup>
 
 </Project>

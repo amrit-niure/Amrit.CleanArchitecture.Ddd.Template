@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Persistence\Blank.Persistence.csproj" />
+    <ProjectReference Include="..\..\src\WebAPI\Minimum.WebAPI.csproj" />
   </ItemGroup>
 
 </Project>
